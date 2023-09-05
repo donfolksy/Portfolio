@@ -38,7 +38,7 @@ function Navbar() {
               <AnchorLink href="#home">Home</AnchorLink>
             </li>
             <li className="bla">
-              <AnchorLink href="#skills">Skills</AnchorLink>
+             <button> <AnchorLink href="#skills">Skills</AnchorLink></button>
             </li>
             <li className="bla">
               <AnchorLink href="#projects">Projects</AnchorLink>
@@ -49,6 +49,17 @@ function Navbar() {
             <a href="https://twitter.com/Kvngtifeh01" target="_blank">
               <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
+
+           <a href="https://api.whatsapp.com/send?phone=09162484365" target="_blank">
+            <i className="fa-brands fa-whatsapp border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+          </a>
+
+          <a href="tel:09162484365">
+            <i className="fa-solid fa-phone border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+          </a>
+
+
+
 
             <a href="https://www.instagram.com/kvng_tifeh_" target="_blank">
               <i className="fa-brands fa-instagram border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
