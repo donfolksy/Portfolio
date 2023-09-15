@@ -3,6 +3,8 @@ import img1 from "../assets/images/main-1.png";
 import img2 from "../assets/images/main-2.png";
 import img3 from "../assets/images/main-3.png";
 import img4 from "../assets/images/main-5.png";
+import img5 from "../assets/images/main-4.png";
+import img6 from "../assets/images/main-6.png";
 
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
@@ -39,18 +41,19 @@ function Projects() {
       img: img4,
       link: "https://precious-biscotti-094d99.netlify.app/", // Replace with your actual project link
     },
-    // {
-    //   id: 5,
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   img: img3,
-    // },
-    // {
-    //   id: 6,
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   img: img1,
-    // },
+    {
+      id: 5,
+      title: "Fabs Logistics",
+      description: "A fully completed collaborative project on how we can improve logistics in Nigeria we are hoping to sell the codes at the long run",
+      img: img5,
+      link: "",
+    },
+    {
+      id: 6,
+      title: "Archraides",
+      description: "An investment project which is underdevelopment by myself and my backend developer",
+      img: img6,
+    },
   ];
 
   return (
