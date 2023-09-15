@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import img1 from "../assets/images/project-img1.png";
-import img2 from "../assets/images/project-img2.png";
-import img3 from "../assets/images/project-img3.png";
+import img1 from "../assets/images/main-1.png";
+import img2 from "../assets/images/main-2.png";
+import img3 from "../assets/images/main-3.png";
+import img4 from "../assets/images/main-5.png";
 
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
@@ -12,40 +13,44 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Property Pro",
+      description: "This project is about a building and estate development",
       img: img1,
+      link: "https://property2.vercel.app/", // Replace with your actual project link
     },
     {
       id: 2,
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Blogr",
+      description: "One of the perfected frontend design i did will learning",
       img: img2,
+      link: "http://blogr-first.netlify.app", // Replace with your actual project link
     },
     {
       id: 3,
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Face of hybrid",
+      description: "My lastest website about a fashion institute which is live",
       img: img3,
+      link: "http://facehybrid.netlify.app/", // Replace with your actual project link
     },
     {
       id: 4,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img2,
+      title: "Intern",
+      description: "One of my intern jobs",
+      img: img4,
+      link: "https://precious-biscotti-094d99.netlify.app/", // Replace with your actual project link
     },
-    {
-      id: 5,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img3,
-    },
-    {
-      id: 6,
-      title: "Business Startup",
-      description: "Design & Development",
-      img: img1,
-    },
+    // {
+    //   id: 5,
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   img: img3,
+    // },
+    // {
+    //   id: 6,
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   img: img1,
+    // },
   ];
 
   return (
