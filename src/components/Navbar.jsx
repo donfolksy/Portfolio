@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl font-bold">Tifeh</h1>
+        <h1 className="text-4xl font-bold">Folorunsho</h1>
 
         <nav
           className={`flex justify-center items-center gap-x-10 ${
@@ -46,30 +46,26 @@ function Navbar() {
           </ul>
 
           <div className="icon text-lg flex gap-4 lg:gap-8 lg:my-10">
-            <a href="https://twitter.com/Kvngtifeh01" target="_blank">
+            <a href="https://twitter.com/sunepafolksy" target="_blank">
               <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
 
-           <a href="https://api.whatsapp.com/send?phone=09162484365" target="_blank">
+           <a href="https://api.whatsapp.com/send?phone=08104941162" target="_blank">
             <i className="fa-brands fa-whatsapp border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
           </a>
 
-          <a href="tel:09162484365">
+          <a href="tel:08104941162">
             <i className="fa-solid fa-phone border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
           </a>
-
-
-
-
-            <a href="https://www.instagram.com/kvng_tifeh_" target="_blank">
+            <a href="https://www.instagram.com/akinlose_sunday" target="_blank">
               <i className="fa-brands fa-instagram border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
-            <a href="https://github.com/tifeh13" target="_blank">
+            <a href="https://github.com/donfolksy" target="_blank">
               <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
           </div>
           <div className="btn">
-            <a href="https://wa.me/+2349162484365">
+            <a href="https://wa.me/+2348104941162">
               <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
                 Let's Connect
               </button>
@@ -86,5 +82,4 @@ function Navbar() {
     </>
   );
 }
-
 export default Navbar;

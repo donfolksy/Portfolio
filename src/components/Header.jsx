@@ -15,7 +15,7 @@ function Header() {
         <div className="btn py-3">
           <button  className='  text-white text-2xl'>Welcome to my Portfolio</button>
         </div>
-        <h1 className='text-white text-5xl font-bold'>Hi! I'm Boluwatife</h1>
+        <h1 className='text-white text-5xl font-bold'>Hi! I'm Folorunsho</h1>
         <p className='text-white py-4 max-w-lg '>I'm a Frontend Web Developer</p>
        <a href="https://wa.me/+2349162484365">
        <button  className=' border-2 border-[#b0aaaa] font-bold text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-4 rounded-2xl'>Let's Connect <i className="fa-solid fa-arrow-right text-lg  p-[2px] "></i> </button>
